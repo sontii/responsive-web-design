@@ -22,6 +22,19 @@ h1 {
 	margin: 0;
 }
 
+a {
+	color: #1792d2;
+}
+
+a:hover,
+a:focus {
+	color: #143774;
+}
+
+strong {
+	font-weight: 700;
+}
+
 /*  h1 subtitle */
 .subtitle {
 	font-weight: 700;
@@ -69,6 +82,10 @@ Layout
 header {
 	background-color: #f8f8f8;
 	padding: 2em 0;
+}
+
+img {
+	max-width: 70%;
 }
 
 @media (max-width: 675px) {
